@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-full">
     <Header />
     <transition name="fade" mode="out-in">
       <Nuxt />
@@ -19,11 +19,7 @@ export default defineComponent({
 })
 </script>
 
-<style lang="postcss" scoped>
-div {
-  @apply container mx-auto px-4 sm:px-0;
-}
-
+<style lang="postcss">
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s;
