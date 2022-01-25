@@ -4,11 +4,11 @@
       <div class="w-full max-w-6xl mx-auto">
         <div class="text-center max-w-xl mx-auto">
           <h1
-            class="text-4xl md:text-7xl font-bold mb-5 text-[#029FE4] drop-shadow-lg"
+            class="text-4xl sm:text-5xl lg:text-7xl font-bold mb-5 text-[#029FE4] drop-shadow-lg"
           >
             Our Core Values
           </h1>
-          <h3 class="text-sm sm:text-xl mb-5 font-light">
+          <h3 class="text-sm lg:text-xl mb-5 font-light">
             Ridiculus laoreet libero pretium et, sit vel elementum convallis
             fames. Sit suspendisse etiam eget egestas. Aliquet odio et lectus
             etiam sit. In mauris rutrum ac ut volutpat, ornare nibh diam.

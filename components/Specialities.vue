@@ -23,7 +23,7 @@
     <!-- DESKTOP -->
     <div class="text-center my-12 hidden sm:block">
       <div class="text-center max-w-xl mx-auto text-white">
-        <h1 class="text-4xl md:text-7xl font-bold mb-5 drop-shadow-lg">
+        <h1 class="text-5xl lg:text-7xl font-bold mb-5 drop-shadow-lg">
           OUR SPECIALITY
         </h1>
         <h3 class="text-sm sm:text-xl mb-5 font-light">

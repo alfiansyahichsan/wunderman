@@ -2,7 +2,7 @@
   <transition name="slide-fade" mode="out-in">
     <div
       :key="currentIndex"
-      class="flex flex-col items-center px-8 sm:px-24 py-16 mx-auto md:flex-row bg-gray-50 relative w-full"
+      class="flex flex-col items-center px-8 sm:px-20 lg:px-24 py-16 mx-auto md:flex-row bg-gray-50 relative w-full"
     >
       <div class="hidden sm:block w-full lg:w-1/3 lg:max-w-lg md:w-1/2">
         <img
@@ -20,7 +20,7 @@
           {{ abouts[currentIndex].sub_title }}
         </h2>
         <h1
-          class="mb-2 sm:mb-4 text-3xl font-black tracking-tighter text-[#029FE4] md:text-5xl title-font drop-shadow-lg"
+          class="mb-2 sm:mb-4 sm:text-3xl lg:text-5xl font-black tracking-tighter text-[#029FE4] title-font drop-shadow-lg"
         >
           {{ abouts[currentIndex].title }}
         </h1>
