@@ -20,7 +20,7 @@
           {{ abouts[currentIndex].sub_title }}
         </h2>
         <h1
-          class="mb-2 sm:mb-4 sm:text-3xl lg:text-5xl font-black tracking-tighter text-[#029FE4] title-font drop-shadow-lg"
+          class="mb-2 sm:mb-4 text-3xl lg:text-5xl font-black tracking-tighter text-[#029FE4] title-font drop-shadow-lg"
         >
           {{ abouts[currentIndex].title }}
         </h1>
