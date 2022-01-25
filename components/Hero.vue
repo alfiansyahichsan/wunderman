@@ -17,7 +17,6 @@
     </div>
     <div class="right-side">
       <div>
-        <!-- <div class="h-full bg-black opacity-25"></div> -->
         <img src="/img/banner.png" alt="banner" />
       </div>
     </div>
@@ -32,18 +31,18 @@ export default {
 
 <style lang="postcss" scoped>
 .hero {
-  @apply flex flex-col-reverse sm:flex-row h-full bg-[#53A7E9] sm:bg-white;
+  @apply flex flex-col-reverse sm:flex-row sm:h-screen sm:-mt-16;
 
   .left-side {
-    @apply flex items-center text-left text-white mt-8 sm:mt-0 z-20 relative w-full;
+    @apply flex items-center text-left text-white sm:mt-0 z-20 relative w-full;
 
     .clip-1 {
-      @apply absolute sm:hidden bg-[#4097DB] sm:bg-white h-72 w-full z-20;
+      @apply absolute sm:hidden bg-[#4097DB] sm:bg-white h-64 -mt-7 w-full z-20;
       clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0 100%);
     }
 
     .clip-2 {
-      @apply absolute sm:hidden bg-[#53A7E9] sm:bg-white w-full h-72 z-10;
+      @apply absolute sm:hidden bg-[#53A7E9] sm:bg-white w-full h-56 z-10;
       clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%);
     }
 
@@ -55,7 +54,7 @@ export default {
       }
 
       span {
-        @apply font-extrabold text-white sm:!text-[#4097DA];
+        @apply font-extrabold text-white sm:!text-[#029FE4];
       }
 
       p {
@@ -65,7 +64,7 @@ export default {
   }
 
   .right-side {
-    @apply w-full lg:block;
+    @apply w-full lg:block -z-10;
     clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0 100%);
     @media only screen and (max-width: 600px) {
       clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
@@ -74,7 +73,7 @@ export default {
     div {
       @apply h-full object-cover;
       img {
-        @apply w-full h-full;
+        @apply w-full h-full object-cover;
       }
     }
   }
