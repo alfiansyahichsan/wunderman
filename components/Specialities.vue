@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto overflow-scroll bg-[#509FDD] px-4 py-6">
-    <div class="bg-white border h-full p-5 sm:hidden">
+    <div class="bg-white border h-full p-6 sm:hidden text-sm text-center">
       <h1 class="font-bold text-2xl text-[#029FE4]">OUR SPECIALITY</h1>
       <p class="text-[#303030] pt-4 font-light">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod
@@ -15,7 +15,9 @@
           class="snap-center flex-shrink-0 flex items-center justify-center w-full flex-col space-y-3"
         >
           <img :src="item.src" class="pb-6" />
-          <p class="text-center text-[#A7A7A7] font-light">{{ item.body }}</p>
+          <p class="text-[#A7A7A7] font-light">
+            {{ item.body }}
+          </p>
         </div>
       </div>
     </div>
