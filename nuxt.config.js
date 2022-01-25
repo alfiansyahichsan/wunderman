@@ -1,5 +1,8 @@
 export default {
   ssr: true,
+  server: {
+    port: 7001,
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Wunderman | Alfiansyah Ichsan',
